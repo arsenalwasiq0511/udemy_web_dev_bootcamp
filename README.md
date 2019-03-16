@@ -1,2 +1,2 @@
-# udemy_web_dev_bootcamp
+# UDEMY Web Development Bootcamp
 Assignments from Udemy - The Web Developer Bootcamp by Colt Steele
