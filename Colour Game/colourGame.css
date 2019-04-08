@@ -1,0 +1,79 @@
+body {
+	font-family: Source Sans Pro;
+}
+
+.container h1 {
+	font-size: 3.6em;
+	margin-bottom: 0px;
+}
+
+.container h2 {
+	font-size: 2.4em;
+	margin-bottom: 0px;
+}
+
+#jumbotron-override {
+	background-color: black;
+	margin-bottom: 0px;
+	text-align: center;
+	color: white;
+	padding: 2rem 2rem;
+}
+
+.choices {
+	background-color: black;
+	height: 500px;
+}
+
+.square {
+	background-color: white;
+	border-radius: 25px;
+	width: 200px;
+	height: 200px;
+	margin: 0px 5px;
+	opacity: 1;
+}
+
+.row-square {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#navbar {
+	text-align: center;
+	padding: 0% 8%;
+	color: rgb(66, 134, 244);
+	font-weight: 800;
+}
+
+#newColors:hover {
+	background-color: rgb(66, 134, 244);
+	color: white;
+}
+
+.selected {
+	background-color: rgb(66, 134, 244);
+	color: white;
+	font-weight: 800;
+}
+
+#result {
+	font-weight: 400;
+	color: black;
+}
+
+.disappear {
+	animation-name: disappear;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+/* ANIMATIONS */
+@keyframes disappear {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+/*
+DEFAULT COLOR: rgb(66, 134, 244);
+*/
